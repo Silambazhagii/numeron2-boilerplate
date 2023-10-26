@@ -35,10 +35,10 @@ function rand() {
         rest = num1 * num2
     }
     else if (operator === 4) {
-        rest = Math.round(num1 / num2)
+        rest = Math.floor(num1 / num2)
     }
     else if (operator === 5) {
-        rest = Math.round(num1 % num2)
+        rest = (num1 % num2)
     }
     else {
         // rand();
